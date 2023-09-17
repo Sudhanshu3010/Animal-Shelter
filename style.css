@@ -436,12 +436,12 @@ footer {
     }
 
     .show-n2 {
-        display: inline;
+        display: none;
         margin-top: 20px;
     }
 
     .show-n {
-        display: none;
+        display: block;
     }
 
     .main {
@@ -551,15 +551,26 @@ footer {
         padding-right: 5px;
         margin-left: 5px;
     }
+    .main img{
+        padding-top: 12px;
+    }
     .navbar a i{
-        font-size: 20px;
+        padding-left: 10px;
+        font-size: 17px;
     }
     .main{
         padding-inline: 20px;
     }
     .main-msg h1{
-        font-size: 2rem;
+        font-size: 1.7rem;
         padding-top: 5px;
+    }
+    .show-n2{
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+    .main-msg h2{
+        font-size: 1.3rem;
     }
     .navbar {
         margin-right: 0px;
@@ -569,7 +580,7 @@ footer {
     }
     .navbar a  {
         padding: 0px;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .navbar ul li a {
