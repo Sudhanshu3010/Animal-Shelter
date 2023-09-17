@@ -168,6 +168,7 @@ transform: rotate(17 deg);
     grid-template-columns: repeat(auto-fit, minmax(220px, auto));
     grid-gap: 1.5rem;
     padding-top: 4rem;
+    padding-inline: 60px;
 }
 
 .one {
@@ -196,8 +197,21 @@ transform: rotate(17 deg);
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     padding-top: 60px;
     font-size: 2.2rem;
+}
+.happy h1:after
+{
+    content: '';
+    background: #b0b0b0;
+    width: 160px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .happy h2 {
@@ -581,8 +595,17 @@ footer {
         padding-inline: 0px;
     }
     .about-img img{
-        width: 42%;
+        width: 45%;
         height: auto;
+    }
+    .one i{
+        font-size: 50px;
+    }
+    .one h3{
+        font-size: 1.3rem;
+    }
+    .one p{
+        font-size: 0.8rem;
     }
     .show-n{
         font-size: 10px;
@@ -609,6 +632,21 @@ footer {
 
     .r_space li a {
         padding: 5px;
+    }
+
+    .happy h1{
+        font-size: 1.7rem;
+    }
+    .happy h2{
+        font-size: 1rem;
+    }
+    .happy h3{
+        padding: 10px 20px 10px 20px;
+    }
+
+    .happy-img img{
+        width: 42%;
+        height: auto;
     }
 
     .dog_none4 {
