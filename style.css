@@ -153,6 +153,7 @@ transform: rotate(17 deg);
 .about h1 {
     color: rgb(255, 253, 245);
     font-size: 2rem;
+    padding-inline: 80px;
     text-align: center;
 }
 
@@ -445,7 +446,7 @@ footer {
     }
 
     .main {
-        padding-top: 100px;
+        padding-top: 80px;
     }
 
     .main img {
@@ -562,15 +563,34 @@ footer {
         padding-inline: 20px;
     }
     .main-msg h1{
-        font-size: 1.7rem;
+        font-size: 1.4rem;
         padding-top: 5px;
     }
-    .show-n2{
-        font-size: 1.2rem;
+    .main-msg p{
+        font-size: 10px;
+    }
+    .about h1{
+        font-size: 17px;
+        text-align: justify;
+        padding-inline: 20px;
+    }
+    .about h2{
+        font-size: 15px;
+    }
+    .about-img{
+        padding-inline: 0px;
+    }
+    .about-img img{
+        width: 42%;
+        height: auto;
+    }
+    .show-n{
+        font-size: 10px;
         text-align: justify;
     }
     .main-msg h2{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
+        font-weight: 500;
     }
     .navbar {
         margin-right: 0px;
@@ -584,7 +604,7 @@ footer {
     }
 
     .navbar ul li a {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .r_space li a {
