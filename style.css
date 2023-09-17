@@ -479,56 +479,6 @@ footer {
     }
 }
 
-@media screen and (max-width: 450px) {
-    .navbar .Name {
-        padding-right: 5px;
-        margin-left: 5px;
-    }
-
-    .navbar {
-        margin-right: 0px;
-        padding-right: 0px;
-        padding-left: 0px;
-        margin-left: 0px;
-    }
-    .navbar a .Name {
-        padding: 0px;
-    }
-
-    .navbar ul li a {
-        font-size: 10px;
-    }
-
-    .r_space li a {
-        padding: 5px;
-    }
-
-    .dog_none4 {
-        display: none;
-    }
-
-    .dog_none5 {
-        display: none;
-    }
-
-    .dog-img img {
-        width: 25%;
-    }
-
-    .contact-icons h2 {
-        font-size: 15px;
-    }
-
-    .contact h2 {
-        font-size: 15px;
-    }
-
-    footer {
-        margin-top: 105px;
-    }
-
-}
-
 @media screen and (max-width: 900px) {
     header {
         position: fixed;
@@ -590,4 +540,68 @@ footer {
     .dog_none3 {
         display: none;
     }
+}
+
+@media screen and (max-width: 450px) {
+    header{
+        height: 60px;
+        padding-top: 5px;
+    }
+    .navbar .Name {
+        padding-right: 5px;
+        margin-left: 5px;
+    }
+    .navbar a i{
+        font-size: 20px;
+    }
+    .main{
+        padding-inline: 20px;
+    }
+    .main-msg h1{
+        font-size: 2rem;
+        padding-top: 5px;
+    }
+    .navbar {
+        margin-right: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    .navbar a  {
+        padding: 0px;
+        font-size: 20px;
+    }
+
+    .navbar ul li a {
+        font-size: 10px;
+    }
+
+    .r_space li a {
+        padding: 5px;
+    }
+
+    .dog_none4 {
+        display: none;
+    }
+
+    .dog_none5 {
+        display: none;
+    }
+
+    .dog-img img {
+        width: 25%;
+    }
+
+    .contact-icons h2 {
+        font-size: 15px;
+    }
+
+    .contact h2 {
+        font-size: 15px;
+    }
+
+    footer {
+        margin-top: 105px;
+    }
+
 }
